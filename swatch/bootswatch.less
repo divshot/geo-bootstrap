@@ -14,6 +14,8 @@ h6 { color: #ff00ff; }
 
 .page-header {
   text-align: center;
+  border-bottom: 1px solid #B6B2A3;
+  .box-shadow(~"inset 0 -1px 0 rgba(0,0,0,.2), 0 1px 0 #EAE7D8");
   overflow-x: -webkit-marquee;
   -webkit-marquee-direction: forwards;
   -webkit-marquee-increment: large;
@@ -22,16 +24,21 @@ h6 { color: #ff00ff; }
   -webkit-marquee-style: alternate;
 }
 
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
 // SCAFFOLDING
 // -----------------------------------------------------
 body {
   background: @bodyBackground url('../img/microfab.gif') top left;
+  -webkit-font-smoothing: none;
 }
 
 // NAVBAR
-// -----------------------------------------------------
-
-// NAV
 // -----------------------------------------------------
 .navbar {
   border-bottom: 1px solid #fff;
@@ -40,6 +47,9 @@ body {
 .navbar-inner {
   border-bottom: 1px solid #D4D0C8;
 }
+
+// NAV
+// -----------------------------------------------------
 
 // BUTTONS
 // -----------------------------------------------------
@@ -61,6 +71,10 @@ body {
 
 // MISC
 // -----------------------------------------------------
+.hero-unit {
+  background: #000;
+}
+
 
 // MEDIA QUERIES
 // -----------------------------------------------------
