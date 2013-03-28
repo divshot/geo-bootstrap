@@ -1,0 +1,21 @@
+{
+  "name": "geocities-bootstrap",
+  "description": "Geocities is the premiere Web 1.0 theme for Twitter Bootstrap.",
+  "version": "1.0.0",
+  "author": "Divshot",
+  "homepage": "http://divshot.com/",
+  "license": "Apache License, Version 2.0, http://www.apache.org/licenses/LICENSE-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:divshot/geocities-bootstrap.git"
+  },
+  "engines": {
+    "node": ">= 0.8.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-recess": "~0.3.1",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-clean": "~0.4.0"
+  }
+}
