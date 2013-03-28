@@ -1,13 +1,13 @@
 {
-  "name": "geocities-bootstrap",
-  "description": "Geocities is the premiere Web 1.0 theme for Twitter Bootstrap.",
+  "name": "geo-bootstrap",
+  "description": "Geo is the coolest theme for Twitter Bootstrap.",
   "version": "1.0.0",
   "author": "Divshot",
   "homepage": "http://divshot.com/",
   "license": "Apache License, Version 2.0, http://www.apache.org/licenses/LICENSE-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com:divshot/geocities-bootstrap.git"
+    "url": "git://github.com:divshot/geo-bootstrap.git"
   },
   "engines": {
     "node": ">= 0.8.11"
