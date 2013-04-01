@@ -223,7 +223,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffff00;
@@ -1065,7 +1065,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
 }
 
 label {
@@ -4510,7 +4510,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
