@@ -13,15 +13,8 @@ h5 { color: #0000ff; }
 h6 { color: #ff00ff; }
 
 .page-header {
-  text-align: center;
   border-bottom: 1px solid #B6B2A3;
   .box-shadow(~"inset 0 -1px 0 rgba(0,0,0,.2), 0 1px 0 #EAE7D8");
-  overflow-x: -webkit-marquee;
-  -webkit-marquee-direction: forwards;
-  -webkit-marquee-increment: large;
-  -webkit-marquee-repetition: 9999999;
-  -webkit-marquee-speed: normal;
-  -webkit-marquee-style: alternate;
 }
 
 a {
@@ -65,10 +58,12 @@ body {
 
 // DROPDOWNS
 // -----------------------------------------------------
+.dropdown-menu {
+  .border-radius(0)
+}
 
 // ALERTS, LABELS, BADGES
 // -----------------------------------------------------
-
 .label-important,
 .badge-important {
   background-color: red;
@@ -123,8 +118,8 @@ body {
 
 // MISC
 // -----------------------------------------------------
-.hero-unit {
-  background: #000;
+.hero-unit, .well {
+  background: #000 url('../img/stars.gif') top left;
 }
 
 .breadcrumb {

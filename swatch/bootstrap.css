@@ -6182,17 +6182,10 @@ h6 {
 }
 
 .page-header {
-  overflow-x: -webkit-marquee;
-  text-align: center;
   border-bottom: 1px solid #B6B2A3;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 #eae7d8;
      -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 #eae7d8;
           box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 #eae7d8;
-  -webkit-marquee-direction: forwards;
-  -webkit-marquee-increment: large;
-  -webkit-marquee-repetition: 9999999;
-  -webkit-marquee-speed: normal;
-  -webkit-marquee-style: alternate;
 }
 
 a {
@@ -6221,6 +6214,12 @@ body {
 
 .btn {
   border: 6px ridge #bbbbbb;
+}
+
+.dropdown-menu {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
 }
 
 .label-important,
@@ -6275,8 +6274,9 @@ body {
   background-color: black;
 }
 
-.hero-unit {
-  background: #000;
+.hero-unit,
+.well {
+  background: #000000 url('../img/stars.gif') top left;
 }
 
 .breadcrumb {
