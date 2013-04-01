@@ -2,7 +2,6 @@
 // Bootswatch
 // -----------------------------------------------------
 
-
 // TYPOGRAPHY
 // -----------------------------------------------------
 h1 { color: #ff0000; }
@@ -22,6 +21,14 @@ a {
 }
 a:hover {
   text-decoration: underline !important;
+}
+
+blink {
+  -webkit-animation: blink 1s linear infinite;
+     -moz-animation: blink 1s linear infinite;
+      -ms-animation: blink 1s linear infinite;
+       -o-animation: blink 1s linear infinite;
+          animation: blink 1s linear infinite;
 }
 
 // SCAFFOLDING
@@ -133,6 +140,49 @@ body {
   background: black;
 }
 
-
-// MEDIA QUERIES
+// ANIMATIONS
 // -----------------------------------------------------
+// Webkit
+@-webkit-keyframes blink {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+// Firefox
+@-moz-keyframes blink {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+// IE9
+@-ms-keyframes blink {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+// Opera
+@-o-keyframes blink {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+// Spec
+@keyframes blink {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
