@@ -6217,11 +6217,25 @@ body {
 }
 
 .navbar-inner {
+  background: #000000 url('../img/stars.gif') top left;
   border-bottom: 1px solid #D4D0C8;
 }
 
 .btn {
   border: 6px ridge #bbbbbb;
+}
+
+.btn-primary {
+  background: #000000 url('../img/rainbow-bg.gif') top left;
+}
+
+legend {
+  font-weight: bold;
+  color: yellow;
+}
+
+.control-group.error input {
+  background: #000000 url('../img/flames.gif') 0 -26px repeat-x;
 }
 
 .dropdown-menu {
