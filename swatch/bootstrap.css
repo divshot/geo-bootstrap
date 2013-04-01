@@ -6312,6 +6312,13 @@ legend {
   border-color: black;
 }
 
+.progress .bar {
+  background: #c0c0c0 url('../img/progress.gif') top left repeat-x !important;
+  border: 1px solid #fff;
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
+}
+
 @-webkit-keyframes blink {
   0% {
     opacity: 0;
