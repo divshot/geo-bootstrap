@@ -223,7 +223,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffff00;
@@ -1065,7 +1065,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
 }
 
 label {
@@ -4510,7 +4510,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Comic Sans MS", 'comic sans ms', fantasy, sans-serif;
+  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -6310,6 +6310,13 @@ legend {
 .nav-tabs > li > a:focus {
   background: black;
   border-color: black;
+}
+
+.progress .bar {
+  background: #c0c0c0 url('../img/progress.gif') top left repeat-x !important;
+  border: 1px solid #fff;
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
 }
 
 @-webkit-keyframes blink {
