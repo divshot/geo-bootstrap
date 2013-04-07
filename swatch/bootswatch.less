@@ -74,6 +74,27 @@ legend {
   background: #000 url('../img/flames.gif') 0 -30px repeat-x;
 }
 
+input.search-query {
+  .border-radius(0);
+}
+
+.form-search .input-append .search-query {
+  .border-radius(0);
+}
+.form-search .input-append .btn {
+  .border-radius(0);
+}
+.form-search .input-prepend .search-query {
+  .border-radius(0);
+}
+.form-search .input-prepend .btn {
+  .border-radius(0);
+}
+
+.navbar-search .search-query {
+  .border-radius(0);
+}
+
 // DROPDOWNS
 // -----------------------------------------------------
 .dropdown-menu {
@@ -82,6 +103,15 @@ legend {
 
 // ALERTS, LABELS, BADGES
 // -----------------------------------------------------
+.label {
+  .border-radius(0);
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  .border-radius(0);
+}
+
 .label-important,
 .badge-important {
   background-color: red;
@@ -134,6 +164,22 @@ legend {
   background-color: black;
 }
 
+// CODE
+// -----------------------------------------------------
+code,
+pre {
+.border-radius(0);
+}
+
+//
+// Pager pagination
+// --------------------------------------------------
+
+.pager li > a,
+.pager li > span {
+  .border-radius(0);
+}
+
 // MISC
 // -----------------------------------------------------
 .hero-unit, .well {
@@ -145,10 +191,41 @@ legend {
   color: white;
 }
 
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
-  border-color: black;
-  background: black;
+.nav-tabs > li > a {
+  .border-radius(0);
+  &:hover,
+  &:focus {
+    border-color: black;
+    background: black;
+  }
+}
+
+.nav-tabs.nav-stacked > li:first-child > a {
+  .border-top-radius(0);
+}
+.nav-tabs.nav-stacked > li:last-child > a {
+  .border-bottom-radius(0);
+}
+
+.nav-tabs .dropdown-menu {
+  .border-radius(0); // remove the top rounded corners here since there is a hard edge above the menu
+}
+.nav-pills .dropdown-menu {
+  .border-radius(0); // make rounded corners match the pills
+}
+
+.tabs-below > .nav-tabs > li > a {
+  .border-radius(0);
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  .border-radius(0);
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  .border-radius(0);
 }
 
 .progress .bar {
@@ -156,6 +233,19 @@ legend {
   border: 1px solid #fff;
   border-top: 1px solid #808080;
   border-left: 1px solid #808080;
+}
+
+.navbar .btn-navbar .icon-bar {
+  .border-radius(0);
+}
+
+.navbar .btn-navbar .icon-bar {
+  .border-radius(0);   
+}
+
+.navbar .pull-right > li > .dropdown-menu,
+.navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
+  .border-radius(0);
 }
 
 // ANIMATIONS
