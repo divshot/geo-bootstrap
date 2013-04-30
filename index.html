@@ -30,6 +30,18 @@
       })();
 
     </script>
+    <script>
+    (function() {
+
+      var stopThief =  function() {
+        alert('Don\'t steal my images!');
+        return false;
+      };
+
+      document.oncontextmenu = stopThief;
+
+    })();
+    </script>
   </head>
 
   <body id="top" class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
