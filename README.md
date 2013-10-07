@@ -10,7 +10,7 @@ To use the image backgrounds download the graphics inside `/img`. Graphics used 
 
 ## Customization
 
-Geo was built with [Bootswatch Swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker).
+Geo was built with [Bootswatch Swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-pages/2/swatchmaker).
 
 To customize Geo edit `/swatch/variables.less` and `/swatch/bootswatch.less`. Refer to the Swatchmaker [README](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker) for instructions to regenerate the Bootstrap stylesheet.
 
