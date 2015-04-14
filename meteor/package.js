@@ -8,7 +8,7 @@ var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
 Package.describe({
   name: packageName,
   summary: 'A timeless Twitter Bootstrap theme built for the modern web',
-  version: packageJson.version + '_1',
+  version: packageJson.version + '_2',
   git: 'https://github.com/thomasvanlankveld/geo-bootstrap.git'
 });
 
