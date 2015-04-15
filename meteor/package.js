@@ -8,7 +8,7 @@ var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
 Package.describe({
   name: packageName,
   summary: 'A timeless Twitter Bootstrap theme built for the modern web',
-  version: packageJson.version + '_2',
+  version: packageJson.version + '_3',
   git: 'https://github.com/thomasvanlankveld/geo-bootstrap.git'
 });
 
@@ -23,6 +23,7 @@ Package.onUse(function (api) {
     'img/rainbow.gif',
     'img/stars.gif',
 
-    'swatch/bootstrap.css'
+    'swatch/bootstrap.css',
+    'swatch/bootstrap-responsive.css'
   ], where);
 });
