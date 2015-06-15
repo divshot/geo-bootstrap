@@ -1,0 +1,1 @@
+Packaging Geo for Meteor.js, the [most popular full-stack JavaScript framework](https://github.com/search?o=desc&q=javascript+framework&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93) on GitHub.
