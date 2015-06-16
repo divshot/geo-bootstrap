@@ -1096,7 +1096,7 @@ input[type="color"],
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #555555;
+  color: #00FFFF;
   vertical-align: middle;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
@@ -3199,13 +3199,8 @@ button.close {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
-  background-color: #e6e6e6;
-  *background-color: #e6e6e6;
-  background-image: -moz-linear-gradient(top, #e6e6e6, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #e6e6e6, #e6e6e6);
-  background-image: -o-linear-gradient(top, #e6e6e6, #e6e6e6);
-  background-image: linear-gradient(to bottom, #e6e6e6, #e6e6e6);
+  background-color: #FF00FF;
+  *background-color: #FF00FF;
   background-repeat: repeat-x;
   border: 1px solid #bbbbbb;
   *border: 0;
